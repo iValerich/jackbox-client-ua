@@ -1044,7 +1044,7 @@
 
                     function Dt(e) {
                         At = At || function() {
-                            var e = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+                            var e = "ABCDEFGHIJKLMNOPQRSTUVWXYZАБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ";
                             return (e += e.toLowerCase() + "0123456789-_") + "."
                         }(), Gt = Gt || function() {
                             for (var e = At, t = {}, n = 0; n < e.length; ++n) t[e[n]] = n;
@@ -4586,10 +4586,10 @@
                         return this.htmlEscape(t).trim()
                     }
                     static sanitizeName(e) {
-                        return e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF\u2026!?*$+\-'_ .,]/gi, "").replace(/'/g, "’")
+                        return e
                     }
                     static sanitizeInput(e) {
-                        return e.replace(/[^\u00A1\u0020-\u007E\u00BF-\u00FF’]/gi, "")
+                        return e
                     }
                     static isInTolerance(e, t, n) {
                         return !(Math.abs(e.x - t.x) < n || Math.abs(e.y - t.y) > n)
