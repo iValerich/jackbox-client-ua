@@ -17,7 +17,7 @@
                         EDIT: "Edit",
                         OK: "OK",
                         NO: "No",
-                        PLAY: "Play",
+                        PLAY: "РОЗПОЧАТИ",
                         PUBLISH: "Publish",
                         RESET: "Reset",
                         SUBMIT: "Submit",
@@ -35,8 +35,8 @@
                     },
                     ENTRY: {
                         PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
-                        ROOM_CODE: "ROOM CODE",
-                        ROOM_CODE_PLACEHOLDER: "ENTER 4-LETTER CODE"
+                        ROOM_CODE: "КОД КІМНАТИ",
+                        ROOM_CODE_PLACEHOLDER: "ВВЕДІТЬ КОД"
                     },
                     ERROR: {
                         DISCONNECTED: "You have been disconnected.",
