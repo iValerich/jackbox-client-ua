@@ -1,4 +1,5 @@
 # jackbox-client-ua
-Ukrainian client website for jackbox
+[![Crowdin](https://badges.crowdin.net/jackbox-website-ua/localized.svg)](https://crowdin.com/project/jackbox-website-ua)
 
-This is a copy of https://github.com/TheDarkSid3r/jackbox-tv, but with some modifications.
+This is a Ukrainian client website for jackbox.  
+It's a translated copy of https://github.com/TheDarkSid3r/jackbox-tv.
