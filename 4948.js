@@ -1275,12 +1275,12 @@
                     staticClass: "constrain"
                 }, [e.artifacts.artifacts.length ? s("div", {
                     staticClass: "top-items"
-                }, [s("h3", [e._v("YOUR PAST GAMES")]), e._v(" "), s("button", {
+                }, [s("h3", [e._v("ВАШІ МИНУЛІ ІГРИ")]), e._v(" "), s("button", {
                     staticClass: "manage",
                     on: {
                         click: e.onManageClick
                     }
-                }, [e._v("\n                " + e._s(e.isManaging ? "DONE" : "MANAGE") + "\n            ")])]) : s("p", {
+                }, [e._v("\n                " + e._s(e.isManaging ? "ГОТОВО" : "ЗМІНИТИ") + "\n            ")])]) : s("p", {
                     staticClass: "empty"
                 }, [e._v("Минулих ігор ще немає")]), e._v(" "), s("transition-group", {
                     attrs: {
@@ -1354,9 +1354,9 @@
                     staticClass: "name"
                 }, [e._v(e._s(e.name))]), e._v(" "), i("p", {
                     staticClass: "date"
-                }, [i("span", [e._v("PLAYED ON")]), e._v(e._s(e.artifact.date))])]), e._v(" "), e.viewed || e.artifact.viewed ? e._e() : i("p", {
+                }, [i("span", [e._v("ЗІГРАНО")]), e._v(e._s(e.artifact.date))])]), e._v(" "), e.viewed || e.artifact.viewed ? e._e() : i("p", {
                     staticClass: "new"
-                }, [e._v("NEW")])]), e._v(" "), e.config && e.config.shopItems && e.config.shopItems.length ? i("div", {
+                }, [e._v("НОВЕ")])]), e._v(" "), e.config && e.config.shopItems && e.config.shopItems.length ? i("div", {
                     staticClass: "items"
                 }, e._l(e.config.shopItems, (function(t) {
                     return i("div", {
@@ -1392,19 +1392,19 @@
                     staticClass: "confirm"
                 }, [i("div", {
                     staticClass: "contain"
-                }, [i("p", [i("span", [e._v("Are you sure?")]), e._v("\n                    This will permanently remove this game"), i("br"), e._v("from your past games list.\n                ")]), e._v(" "), i("button", {
+                }, [i("p", [i("span", [e._v("Ви впевнені?")]), e._v("\n                    Цю гру буде видалено назавжди"), i("br"), e._v("зі списку ваших минулих ігор.\n                ")]), e._v(" "), i("button", {
                     staticClass: "confirm-yes",
                     on: {
                         click: function(t) {
                             return e.$emit("removeClick", e.index)
                         }
                     }
-                }, [e._v("Remove")]), e._v(" "), i("button", {
+                }, [e._v("Видалити")]), e._v(" "), i("button", {
                     staticClass: "confirm-no",
                     on: {
                         click: e.onCancelClick
                     }
-                }, [e._v("Cancel")])])]) : e._e()])], 1)
+                }, [e._v("Відміна")])])]) : e._e()])], 1)
             };
             P._withStripped = !0;
             const W = _().extend({
@@ -1424,7 +1424,7 @@
                     },
                     name() {
                         var e, t;
-                        return this.showConfirm ? "Are You Sure?" : this.isManaging ? "Remove Game?" : null !== (t = null === (e = this.config) || void 0 === e ? void 0 : e.name) && void 0 !== t ? t : ""
+                        return this.showConfirm ? "Ви Впевнені?" : this.isManaging ? "ВИДАЛИТИ ГРУ?" : null !== (t = null === (e = this.config) || void 0 === e ? void 0 : e.name) && void 0 !== t ? t : ""
                     },
                     imageClasses() {
                         var e;
@@ -1435,7 +1435,7 @@
                     },
                     cta() {
                         var e, t;
-                        return (null === (t = null === (e = this.config) || void 0 === e ? void 0 : e.shopItems) || void 0 === t ? void 0 : t.length) ? "VIEW GAME & SHOP" : "VIEW THIS GAME"
+                        return (null === (t = null === (e = this.config) || void 0 === e ? void 0 : e.shopItems) || void 0 === t ? void 0 : t.length) ? "ПЕРЕГЛЯНУТИ ГРУ І МАГАЗИН" : "ПЕРЕГЛЯНУТИ ЦЮ ГРУ"
                     }
                 },
                 watch: {
@@ -1573,7 +1573,7 @@
                     }
                 }, [e._v("\n            " + e._s(e.$t("STRING_PASSWORD_JOIN_AS_PLAYER")) + "\n        ")]), e._v(" "), e.room.audienceEnabled ? [i("hr"), e._v(" "), i("p", {
                     staticClass: "or"
-                }, [e._v("OR")]), e._v(" "), i("button", {
+                }, [e._v("АБО")]), e._v(" "), i("button", {
                     directives: [{
                         name: "bb",
                         rawName: "v-bb",
@@ -1643,7 +1643,7 @@
                     }
                 }), e._v(" "), i("h3", {
                     staticClass: "text"
-                }, [e._v("ERROR!")]), e._v(" "), i("h3", {
+                }, [e._v("ПОМИЛКА!")]), e._v(" "), i("h3", {
                     staticClass: "subtext"
                 }, [e._v("\n        This pre-release game can only be joined from the url in your press packet (not jackbox.tv).\n    ")]), e._v(" "), i("div", {
                     staticClass: "actions"
@@ -1653,7 +1653,7 @@
                             return t.preventDefault(), e.$emit("resolve")
                         }
                     }
-                }, [e._v("Got It")])])])
+                }, [e._v("Зрозуміло")])])])
             };
             Q._withStripped = !0;
             const Z = _().extend({});
@@ -1668,7 +1668,7 @@
                     staticClass: "slide-banner"
                 }, [e.isLoading ? s("div", {
                     staticClass: "loading"
-                }, [e._v("LOADING")]) : e._e(), e._v(" "), !e.isLoading && e.banners.length ? s("VueSlickCarousel", e._b({}, "VueSlickCarousel", e.settings, !1), e._l(e.banners, (function(t) {
+                }, [e._v("ЗАВАНТАЖЕННЯ")]) : e._e(), e._v(" "), !e.isLoading && e.banners.length ? s("VueSlickCarousel", e._b({}, "VueSlickCarousel", e.settings, !1), e._l(e.banners, (function(t) {
                     return s("div", {
                         key: t.url,
                         staticClass: "slide"
