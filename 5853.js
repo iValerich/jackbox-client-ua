@@ -8,22 +8,22 @@
             const o = {
                 en: {
                     ACTION: {
-                        BACK: "Back",
-                        CANCEL: "Cancel",
-                        CLOSE: "Close",
-                        CREATE: "Create",
-                        DELETE: "Delete",
-                        DONE: "Done",
-                        EDIT: "Edit",
-                        OK: "OK",
-                        NO: "No",
-                        PLAY: "РОЗПОЧАТИ",
-                        PUBLISH: "Publish",
-                        RESET: "Reset",
-                        SUBMIT: "Submit",
-                        TRY_AGAIN: "Try Again",
-                        UNDO: "Undo",
-                        YES: "Yes"
+                        BACK: "Назад",
+                        CANCEL: "Скасувати",
+                        CLOSE: "Закрити",
+                        CREATE: "Створити",
+                        DELETE: "Видалити",
+                        DONE: "Готово",
+                        EDIT: "Редагувати",
+                        OK: "Так",
+                        NO: "Ні",
+                        PLAY: "Розпочати",
+                        PUBLISH: "Опублікувати",
+                        RESET: "Скинути",
+                        SUBMIT: "Надіслати",
+                        TRY_AGAIN: "Спробувати ще раз",
+                        UNDO: "Відмінити",
+                        YES: "Так"
                     },
                     ALT: {
                         UGC: {
@@ -34,77 +34,77 @@
                         }
                     },
                     ENTRY: {
-                        PASSWORD_PLACEHOLDER: "ENTER 5-DIGIT PASSWORD",
+                        PASSWORD_PLACEHOLDER: "УВЕДІТЬ П'ЯТИЗНАЧНИЙ ПАРОЛЬ",
                         ROOM_CODE: "КОД КІМНАТИ",
                         ROOM_CODE_PLACEHOLDER: "ВВЕДІТЬ КОД"
                     },
                     ERROR: {
-                        DISCONNECTED: "You have been disconnected.",
-                        DRAWING_NOTHING: "You have to draw something!",
-                        PLAYER_KICKED: "You’ve been kicked.",
-                        ROOM_DESTROYED: "Thanks for playing!",
-                        ROOM_DISCONNECTED: "Disconnected",
-                        ROOM_NOT_FOUND: "Room not found",
+                        DISCONNECTED: "Ви були відключені.",
+                        DRAWING_NOTHING: "Ви мусите намалювати щось!",
+                        PLAYER_KICKED: "Вас вигнали.",
+                        ROOM_DESTROYED: "Дякуємо за гру!",
+                        ROOM_DISCONNECTED: "Від'єднано",
+                        ROOM_NOT_FOUND: "Кімнату не знайдено",
                         TEXT_NAUGHTY: "I’m afraid you can’t write that. Please be respectful of other players.",
-                        TEXT_NOTHING: "You can’t enter nothing!",
-                        TITLE: "Error"
+                        TEXT_NOTHING: "Вам потрібно щось ввести!",
+                        TITLE: "Помилка"
                     },
                     LOBBY: {
                         JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
                         PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
-                        WAITING_FOR_VIP: "Waiting for {name} to start the game",
-                        WAITING_FOR_GAMEPAD: "Waiting for the game to start",
-                        GAME_STARTING: "Game is starting",
-                        BUTTON_START: "Press to Start",
-                        BUTTON_CANCEL: "Press to Cancel"
+                        WAITING_FOR_VIP: "Чекаємо, поки {name} почне гру",
+                        WAITING_FOR_GAMEPAD: "Чекаємо початку гри",
+                        GAME_STARTING: "Гра починається",
+                        BUTTON_START: "Натисніть, щоб почати",
+                        BUTTON_CANCEL: "Натисніть, щоб скасувати"
                     },
                     POST_GAME: {
-                        GALLERY_LINK: "Visit the Gallery",
-                        PLAY_AGAIN: "Play again?",
-                        BUTTON_SAME_PLAYERS: "Same Players",
-                        BUTTON_NEW_PLAYERS: "New Players"
+                        GALLERY_LINK: "Відвідати галерею",
+                        PLAY_AGAIN: "Зіграти знову?",
+                        BUTTON_SAME_PLAYERS: "Ті самі гравці",
+                        BUTTON_NEW_PLAYERS: "Нові гравці"
                     },
                     SEPARATOR: {
-                        AND: "AND",
-                        OR: "OR"
+                        AND: "І",
+                        OR: "АБО"
                     },
                     TUTORIAL: {
-                        BUTTON_SKIP: "Skip",
-                        BUTTON_NEXT: "Next",
-                        BUTTON_DONE: "Let’s Go!"
+                        BUTTON_SKIP: "Пропустити",
+                        BUTTON_NEXT: "Далі",
+                        BUTTON_DONE: "Почнемо!"
                     },
                     AUDIENCE: {
-                        NAME: "AUDIENCE"
+                        NAME: "ГЛЯДАЧІ"
                     },
                     UGC: {
-                        EPISODE_REPORT: "Report Episode",
-                        EPISODE_UNLOAD: "Unload Episode",
-                        EPISODE_VIEW_AUTHOR: "View Author",
-                        EPISODES_LOAD: "Load an episode by id:",
-                        EPISODES_MENU: "Episodes Menu",
-                        EPISODES_SELECT: "Or select an epsiode:",
-                        EPISODES_WARNING: "Warning: user generated content is not rated",
+                        EPISODE_REPORT: "Поскаржитися на епізод",
+                        EPISODE_UNLOAD: "Вивантажити епізод",
+                        EPISODE_VIEW_AUTHOR: "Переглянути авторів",
+                        EPISODES_LOAD: "Завантажити епізод за ідентифікатором:",
+                        EPISODES_MENU: "Меню епізодів",
+                        EPISODES_SELECT: "Або виберіть епізод:",
+                        EPISODES_WARNING: "Увага: створений користувачами вміст не перевіряється",
                         INSTRUCTION: {
-                            CREATE_TITLE: "first things first, enter a name for the episode that will contain all your prompts and hit create.",
-                            LOAD: "create or load?",
-                            PUBLISH: "publish your episode",
-                            TITLE: "name your episode",
-                            TOGGLE_VISIBILITY: "tap to show/hide prompts",
-                            WRITE: "write your prompts"
+                            CREATE_TITLE: "спочатку введіть назву епізоду, яка об'єднуватиме всі ваші завдання, і натисніть «Створити».",
+                            LOAD: "створити чи завантажити?",
+                            PUBLISH: "опублікувати епізод",
+                            TITLE: "назви свій епізод",
+                            TOGGLE_VISIBILITY: "натисни, щоб показати/приховати завдання",
+                            WRITE: "напиши свої завдання"
                         },
                         WARNING: {
-                            DELETE: "Are you sure you want to delete this episode?",
+                            DELETE: "Ви впевнені, що хочете видалити цей епізод?",
                             TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
-                            TOS_AGREE: "agree and share"
+                            TOS_AGREE: "погодитися та поділитися"
                         },
-                        BACK_TO_EPISODES: "back to episodes",
-                        BACK_TO_MENU: "back to menu",
-                        CREATE_NEW_EPISODE: "create a new episode",
-                        PREVIOUS_EPISODES: "previous episodes",
-                        PROMPT_ADD: "add prompt",
-                        PROMPT_PLACEHOLDER: "enter a prompt",
+                        BACK_TO_EPISODES: "назад до епізодів",
+                        BACK_TO_MENU: "назад у меню",
+                        CREATE_NEW_EPISODE: "створити новий епізод",
+                        PREVIOUS_EPISODES: "минулі епізоди",
+                        PROMPT_ADD: "додати запитання",
+                        PROMPT_PLACEHOLDER: "введіть запитання",
                         PROMPTS_COUNT_HIDDEN: "({count} hidden)",
-                        TITLE_PLACEHOLDER: "enter a title"
+                        TITLE_PLACEHOLDER: "уведіть назву"
                     }
                 },
                 fr: {
