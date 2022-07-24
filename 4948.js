@@ -1282,7 +1282,7 @@
                     }
                 }, [e._v("\n                " + e._s(e.isManaging ? "DONE" : "MANAGE") + "\n            ")])]) : s("p", {
                     staticClass: "empty"
-                }, [e._v("No Past Games Yet")]), e._v(" "), s("transition-group", {
+                }, [e._v("Минулих ігор ще немає")]), e._v(" "), s("transition-group", {
                     attrs: {
                         name: "list-transition"
                     }
