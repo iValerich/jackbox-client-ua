@@ -153,20 +153,20 @@
                         target: "_blank",
                         href: "https://www.jackboxgames.com/?utm_source=jackboxtv&utm_medium=logo&utm_campaign=jackboxgames"
                     }
-                }, [e._v("\n                Link to Jackbox Games Homepage\n            ")])], 1)]), e._v(" "), e.recentGames.length ? s("div", {
+                }, [e._v("\n                Посилання на домашню сторінку Jackbox Games\n            ")])], 1)]), e._v(" "), e.recentGames.length ? s("div", {
                     staticClass: "recent"
                 }, [s("div", {
                     staticClass: "constrain"
                 }, [s("div", {
                     staticClass: "top-items"
-                }, [s("h3", [e._v("RECENT GAMES")]), e._v(" "), s("button", {
+                }, [s("h3", [e._v("ОСТАННІ ІГРИ")]), e._v(" "), s("button", {
                     staticClass: "view-all",
                     on: {
                         click: function(t) {
                             return t.preventDefault(), e.onPastGamesClick.apply(null, arguments)
                         }
                     }
-                }, [e._v("VIEW ALL")])]), e._v(" "), e._l(e.recentGames, (function(e) {
+                }, [e._v("ПЕРЕГЛЯНУТИ ВСЕ")])]), e._v(" "), e._l(e.recentGames, (function(e) {
                     return s("PastGame", {
                         key: e.url,
                         staticClass: "home",
@@ -184,7 +184,7 @@
                             return t.preventDefault(), e.onPastGamesClick.apply(null, arguments)
                         }
                     }
-                }, [e._v("\n                View All Past Games\n            ")]) : e._e()], 2)]) : e._e()], 1)
+                }, [e._v("\n                Переглянути Усі Минулі Ігри\n            ")]) : e._e()], 2)]) : e._e()], 1)
             };
             i._withStripped = !0;
             var a, o = s(39666),
@@ -1645,7 +1645,7 @@
                     staticClass: "text"
                 }, [e._v("ПОМИЛКА!")]), e._v(" "), i("h3", {
                     staticClass: "subtext"
-                }, [e._v("\n        This pre-release game can only be joined from the url in your press packet (not jackbox.tv).\n    ")]), e._v(" "), i("div", {
+                }, [e._v("\n        До цієї пре-релізної гри можна приєднатися лише за URL-адресою у вашому прес-пакеті (не jackbox.in.ua).\n    ")]), e._v(" "), i("div", {
                     staticClass: "actions"
                 }, [i("button", {
                     on: {
