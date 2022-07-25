@@ -3599,7 +3599,7 @@
                             return Promise.all([n.e(7416), n.e(524), n.e(990), n.e(972), n.e(4442), n.e(4340), n.e("games/house-of-jackbox")]).then(n.bind(n, 79004))
                         }))
                     }, {
-                        name: "Quiplash 2 International",
+                        name: "Жартлист 2 Міжнародний",
                         app: "marionette",
                         tag: "quiplash2-international",
                         categoryId: "quiplash2-internationalGame",
