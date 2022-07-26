@@ -282,8 +282,8 @@
                 },
                 onRoomWasDestroyed() {
                     d.app.storage && d.app.storage.isSupported && (d.app.storage.remove("roomCode"), d.app.storage.remove("reconnect")), h.b.show("error", {
-                        titleText: "Disconnected",
-                        text: "Thanks for playing!",
+                        titleText: "Відключено",
+                        text: "Дякуємо за гру!",
                         willClose: () => {
                             window.location.reload(!0)
                         }
@@ -291,8 +291,8 @@
                 },
                 onDisconnected() {
                     h.b.show("error", {
-                        titleText: "Disconnected",
-                        text: "You have been disconnected.",
+                        titleText: "Відключено",
+                        text: "Ви були відключені.",
                         willClose: () => {
                             window.location.reload(!0)
                         }

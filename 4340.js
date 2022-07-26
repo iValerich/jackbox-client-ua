@@ -1868,10 +1868,10 @@
                     LANGUAGE_NAME: "English",
                     SUPPORTED_LANGUAGES: ["English", "Français", "Italiano", "Deutsch", "Español"],
                     SUPPORTED_LOCALES: ["en", "fr", "it", "de", "es"],
-                    LANGUAGE: "Language",
-                    LOGIN: "Login",
-                    STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Disconnected",
-                    STRING_ERROR_SERVER_ROOM_DESTROYED: "Thanks for playing!"
+                    LANGUAGE: "Мова",
+                    LOGIN: "Увійти",
+                    STRING_ERROR_SERVER_ROOM_DISCONNECTED: "Відключено",
+                    STRING_ERROR_SERVER_ROOM_DESTROYED: "Дякуємо за гру!"
                 },
                 fr: {
                     LANGUAGE_NAME: "Français",
