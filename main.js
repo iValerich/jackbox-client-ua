@@ -3976,7 +3976,7 @@
                             return Promise.all([n.e(2529), n.e(5853), n.e(7381), n.e(3317), n.e("games/awshirt-tjsp")]).then(n.bind(n, 12659))
                         }))
                     }, {
-                        name: "Trivia Murder Party 2",
+                        name: "Смертельні Вечорниці 2",
                         app: "vue",
                         tag: "triviadeath2-tjsp",
                         importFn: () => r(void 0, void 0, void 0, (function*() {
