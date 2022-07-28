@@ -184,7 +184,7 @@
                             return t.preventDefault(), e.onPastGamesClick.apply(null, arguments)
                         }
                     }
-                }, [e._v("\n                Переглянути Усі Минулі Ігри\n            ")]) : e._e()], 2)]) : e._e()], 1)
+                }, [e._v("\n                Переглянути усі минулі ігри\n            ")]) : e._e()], 2)]) : e._e()], 1)
             };
             i._withStripped = !0;
             var a, o = s(39666),
