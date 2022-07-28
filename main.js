@@ -4429,7 +4429,7 @@
                 });
                 var r = n(89446);
                 const i = {
-                    English: "en",
+                    English: "uk",
                     French: "fr",
                     Italian: "it",
                     German: "de",
