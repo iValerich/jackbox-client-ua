@@ -45,15 +45,15 @@
                         ROOM_DESTROYED: "Дякуємо за гру!",
                         ROOM_DISCONNECTED: "Від'єднано",
                         ROOM_NOT_FOUND: "Кімнату не знайдено",
-                        TEXT_NAUGHTY: "I’m afraid you can’t write that. Please be respectful of other players.",
+                        TEXT_NAUGHTY: "Боюся, що ви не можете написати це. Будь ласка, будьте ввічливі до інших гравців.",
                         TEXT_NOTHING: "Вам потрібно щось ввести!",
                         TITLE: "Помилка"
                     },
                     LOBBY: {
-                        JOINED_COUNT: "x | {count} of {maxPlayers} players joined | {count} of {maxPlayers} players joined",
-                        PLAYERS_NEEDED: "x | {count} player needed to start | {count} players needed to start",
-                        WAITING_FOR_VIP: "Чекаємо, поки {name} почне гру",
-                        WAITING_FOR_GAMEPAD: "Чекаємо початку гри",
+                        JOINED_COUNT: "х | {count} з {maxPlayers} гравців приєднався | {count} з {maxPlayers} гравців приєдналися",
+                        PLAYERS_NEEDED: "х | Для початку гри потрібен {count} гравець | Для початку потрібно {count} гравців",
+                        WAITING_FOR_VIP: "Очікуємо, поки {name} почне гру",
+                        WAITING_FOR_GAMEPAD: "Очікування початку гри",
                         GAME_STARTING: "Гра починається",
                         BUTTON_START: "Натисніть, щоб почати",
                         BUTTON_CANCEL: "Натисніть, щоб скасувати"
@@ -94,7 +94,7 @@
                         },
                         WARNING: {
                             DELETE: "Ви впевнені, що хочете видалити цей епізод?",
-                            TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
+                            TOS: "Поширюючи власний вміст, ви погоджуєтеся з нашими [tos]Умовами Надання Послуг[/tos]",
                             TOS_AGREE: "погодитися та поділитися"
                         },
                         BACK_TO_EPISODES: "назад до епізодів",
