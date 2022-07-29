@@ -11,6 +11,12 @@
             "text": "Підтримайте армію",
             "src": "assets/WarshipBanner.png",
             "href": "https://bank.gov.ua/ua/about/support-the-armed-forces"
+        },
+        {
+            "start": "2022-07-21",
+            "text": "Наш канал в телеграмі",
+            "src": "assets/BayrakBanner.png",
+            "href": "https://t.me/jackbox_ua"
         }
     ],
     "postGameBanners": {
