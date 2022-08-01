@@ -481,7 +481,7 @@
                     startGame: !0,
                     decision: "PostGame_NewGame"
                 }), !1),
-                sanitize: e => e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF!?*$+\-’'_ .,:]/gi, "").replace(/'/g, "’").trim()
+                sanitize: e => e.replace(/[^A-Z0-9\u00A1\u0020-\u002F\u00BF-\u00FF!?*$+\-’'_ .,:АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ]/gi, "").replace(/'/g, "’").trim()
             })
         },
         27091: e => {
