@@ -1424,7 +1424,7 @@
                     },
                     name() {
                         var e, t;
-                        return this.showConfirm ? "Ви Впевнені?" : this.isManaging ? "ВИДАЛИТИ ГРУ?" : null !== (t = null === (e = this.config) || void 0 === e ? void 0 : e.name) && void 0 !== t ? t : ""
+                        return this.showConfirm ? "Ви впевнені?" : this.isManaging ? "ВИДАЛИТИ ГРУ?" : null !== (t = null === (e = this.config) || void 0 === e ? void 0 : e.name) && void 0 !== t ? t : ""
                     },
                     imageClasses() {
                         var e;
